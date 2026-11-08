@@ -1,0 +1,21 @@
+{
+  "baseline_auc": 0.8425308067891188,
+  "retrains": [
+    {
+      "week": 8,
+      "reason": "PSI crítico 2 semanas seguidas"
+    },
+    {
+      "week": 12,
+      "reason": "PSI crítico 4 semanas seguidas"
+    }
+  ],
+  "auc_mean_static": 0.8047750819241701,
+  "auc_mean_live": 0.8103326721296761,
+  "auc_static_weeks_9_16": 0.765066658056203,
+  "auc_live_weeks_9_16": 0.7761818384672148,
+  "calibration_gap_static_last": 0.00792976667483386,
+  "calibration_gap_live_last": -0.014375944803172447,
+  "first_warning_week": 6,
+  "first_critical_week": 7
+}
